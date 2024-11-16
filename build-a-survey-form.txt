@@ -1,0 +1,96 @@
+** start of undefined **
+
+<link rel="stylesheet" href="styles.css">
+<h1 id="title">Voice Your Opinion:Feedback Survey</h1>
+<p id="description">Thank you participating in our survey</p>
+<form id="survey-form">
+  <div class="input-element">
+  <label id="name-label">Name:
+  </label>
+  <input placeholder="Enter your name" id="name" type="text" name="name" required>
+  </div>
+  <div class="input-element">
+  <label id="email-label">Email:</label>
+  <input placeholder="Enter your email" id="email" type="email" name="email" required>
+  </div>
+  <div class="input-element">
+  <label id="number-label">Age:</label>
+  <input placeholder="Age" id="number" name="age" min="2" max="100" name="age" type="number" required>
+  </div>
+  <div class="input-element">
+    <label id="select-label">What is your favorite sport??</label>
+    <select id="dropdown">
+      <option>Football</option>
+      <option>Basketball</option>
+      <option>Volleyball</option>
+      <option>Handball</option>
+    </select>
+  </div>
+  <div>
+    <label>Have you attended a sporting event</label>
+    </div>
+<div>
+  <label><input type="radio" name="game" value="yes"/>Yes</label>
+  </div>
+  <div>
+    <label><input type="radio" name="game" value="no"/>No</label>
+  </div>
+  <div class="input-element">
+    <label>Which of these sports is popular??</label>
+  <div>
+    <label><input type="checkbox" name="sport1" value="football"/>Football</label>
+    </div>
+    <div>
+      <label><input type="checkbox" name="sport2" value="basketball"/>Basketball</label>
+      </div>
+      <label><input type="checkbox" name="sport3" value="volleyball"/>Volleyball</label>
+      <div>
+      <label><input type="checkbox" name="sport4" value="handball"/>Handball</label>
+      
+      <div class="input-element">
+        <label>Additional Comments</label>
+        <textarea type="text"></textarea>
+        </div>
+        <button type="submit" id="submit">Submit</button>
+        </div>
+
+</form>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  background-color:lightblue;
+  text-align:center;
+}
+form{
+  max-width:500px;
+  text-align:left;
+  padding:20px;
+  border:2px solid black;
+  border-radius:10px;
+}
+.input-element{
+  margin:10px;
+  display:flex;
+  flex-direction:column;
+}
+select{
+  input{
+  padding:5px;
+  border-radius:5px;
+  border:none;
+}
+input{
+  padding:5px;
+  border-radius:5px;
+  border:none;
+}
+input[type="checkbox"]{
+  width:30px;
+  height:15px;
+}
+
+** end of undefined **
+
